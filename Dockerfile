@@ -11,4 +11,4 @@ ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=https
 
 # Start n8n
-CMD ["n8n", "start"]
+CMD ["n8n", "start", "--tunnel"]
